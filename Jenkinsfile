@@ -1,12 +1,12 @@
-pipeline{
+pipeline {
   stages {
-    stage("build"){
-      steps{
+    stage("build") {
+      steps {
         echo 'building the app....'
       }
     }
-    stage("test"){
-      steps{
+    stage("test") {
+      steps {
         echo 'testing the app....'
       }
     }
